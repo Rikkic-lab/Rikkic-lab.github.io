@@ -6,10 +6,7 @@ import { source } from '@/lib/source';
 import { GithubInfo } from 'fumadocs-ui/components/github-info';
 
 const maps = {
-  'Ejunz': <GithubInfo owner="ejunz-dev" repo="Ejunz" />,
-  'IoT': <GithubInfo owner="ejunz-dev" repo="IoT" />,
-  'AI': <GithubInfo owner="ejunz-dev" repo="AI" />,
-  'KB': <GithubInfo owner="ejunz-dev" repo="KB" />,
+  'Soyo': <GithubInfo owner="soyojs" repo="Soyo" />,
 };
 
 export default async function Layout({ children, params }: { children: ReactNode, params: Promise<{ slug: string[] }> }) {
@@ -30,25 +27,10 @@ export default async function Layout({ children, params }: { children: ReactNode
           <RootToggle
             options={[
               {
-                title: 'Ejunz',
-                description: '多功能一站式平台',
-                url: '/docs/Ejunz',
+                title: 'Soyo',
+                description: '新一代web框架',
+                url: '/docs/Soyo',
               },
-              {
-                title: 'IoT',
-                description: '物联网部署',
-                url: '/docs/IoT',
-              },
-              {
-                title: 'AI',
-                description: '人工智能部署',
-                url: '/docs/AI',
-              },
-              {
-                title: 'KB',
-                description: '知识库部署',
-                url: '/docs/KB',
-              },  
             ]}
           />
         ),

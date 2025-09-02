@@ -12,13 +12,13 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
       <head>
-        <title>Ejunz Docs</title>
+        <title>Soyojs Docs</title>
         <link rel="icon" href="/favicon.png" />
         <meta name="theme-color" content="#ffeded" />
-        <meta name="description" content="Ejunz 文档" />
-        <meta name="keywords" content="Ejunz, 文档, 教程, 指南, 多功能" />
-        <meta name="og:title" content="Ejunz Docs" />
-        <meta name="og:site_name" content="Ejunz Docs" />
+        <meta name="description" content="Soyojs 文档" />
+        <meta name="keywords" content="Soyojs, 文档, 教程, 指南, 多功能" />
+        <meta name="og:title" content="Soyojs Docs" />
+        <meta name="og:site_name" content="Soyojs Docs" />
         <meta name="og:locale" content="zh_CN" />
       </head>
       <body className="flex flex-col min-h-screen">

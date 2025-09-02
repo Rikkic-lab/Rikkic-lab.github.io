@@ -12,7 +12,7 @@ export default function HomePage() {
       <div className="flex items-center gap-4 mb-6">
         <div className="relative w-12 h-12">
           <Image
-            src="/favicon.png"
+            src="/ejunz.png"
             alt="Ejunz Logo"
             fill
             className="object-contain"
@@ -20,7 +20,7 @@ export default function HomePage() {
           />
         </div>
         <h1 className="text-4xl font-bold">
-          易君 Ejunz
+          易君-soyojs
         </h1>
       </div>
       <p className="text-fd-muted-foreground text-lg mb-8">
@@ -29,70 +29,19 @@ export default function HomePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
           <Link
-            href="/docs/Ejunz"
+            href="/docs/Soyo"
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              Ejunz - 多功能一站式平台
+              Soyo - 新一代web框架
             </h3>
             <p className="text-fd-muted-foreground">
-              可部署，可扩展，可定制，可集成
+              高速，易用，灵活，可扩展
             </p>
           </Link>
           <GithubInfo
-            owner="ejunz-dev"
-            repo="Ejunz"
-          />
-        </div>
-        <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
-          <Link
-            href="/docs/IoT"
-            className="hover:border-fd-border-hover"
-          >
-            <h3 className="text-xl font-semibold mb-2">
-              IoT - 物联网部署
-            </h3>
-            <p className="text-fd-muted-foreground">
-              服务端，客户端，设备管理，消息系统
-            </p>
-          </Link>
-          <GithubInfo
-            owner="ejunz-dev"
-            repo="IoT"
-          />
-        </div>
-        <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
-          <Link
-            href="/docs/AI"
-            className="hover:border-fd-border-hover"
-          >
-            <h3 className="text-xl font-semibold mb-2">
-              AI - 人工智能部署
-            </h3>
-            <p className="text-fd-muted-foreground">
-              助手，控制，分析，指导
-            </p>
-          </Link>
-          <GithubInfo
-            owner="ejunz-dev"
-            repo="AI"
-          />
-        </div>
-        <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
-          <Link
-            href="/docs/KB"
-            className="hover:border-fd-border-hover"
-          >
-            <h3 className="text-xl font-semibold mb-2">
-              KB - 知识库部署
-            </h3>
-            <p className="text-fd-muted-foreground">
-              文件，笔记，协作，训练
-            </p>
-          </Link>
-          <GithubInfo
-            owner="ejunz-dev"
-            repo="KB"
+            owner="soyojs"
+            repo="Soyo"
           />
         </div>
       </div>
