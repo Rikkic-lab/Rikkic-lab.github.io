@@ -20,7 +20,7 @@ export default function HomePage() {
           />
         </div>
         <h1 className="text-4xl font-bold">
-          易君-soyojs
+          易君-Rikkic Lab
         </h1>
       </div>
       <p className="text-fd-muted-foreground text-lg mb-8">
@@ -29,19 +29,19 @@ export default function HomePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <div className="group block p-6 rounded-lg border border-fd-border hover:shadow-lg transition-all">
           <Link
-            href="/docs/Soyo"
+            href="/docs/Rikkic"
             className="hover:border-fd-border-hover"
           >
             <h3 className="text-xl font-semibold mb-2">
-              Soyo - 新一代web框架
+              Rikkic - 硬件开源平台
             </h3>
             <p className="text-fd-muted-foreground">
-              高速，易用，灵活，可扩展
+              多种硬件设备，支持多种协议
             </p>
           </Link>
           <GithubInfo
-            owner="soyojs"
-            repo="Soyo"
+            owner="Rikkic-lab"
+            repo="Rikkic"
           />
         </div>
       </div>
